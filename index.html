@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="contact_form">
+        <div class="content">
+          <h2>Stay updated!</h2>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li>
+              <i class="ri-verified-badge-line"></i>Join 60,000+ product
+              managers receiving monthly updates on:
+            </li>
+            <li>
+              <i class="ri-verified-badge-line"></i>Product discovery and
+              building what matters
+            </li>
+            <li>
+              <i class="ri-verified-badge-line"></i>Measuring to ensure updates
+              are a success
+            </li>
+            <li><i class="ri-verified-badge-line"></i>And much more!</li>
+          </ul>
+          <div class="error">
+            <label for="email">Email Address</label>
+            <p class="error"></p>
+          </div>
+          <form action="#">
+            <input
+              class="form-input"
+              type="email"
+              placeholder="Example@gmail.com"
+              required
+            />
+            <button type="submit" class="subscrib_btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+        <div class="image-content">
+          <img src="illustration-sign-up-desktop.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="success_massage hide">
+        <img src="icon-success.svg" alt="" />
+        <h2>Thanks for subscribing!</h2>
+        <p>
+          A confirmation email has been sent to ash@loremcompany.com. Please
+          open it and click the button inside to confirm your subscription.
+        </p>
+        <button type="button" class="dissmiss_massage">Dissmiss Massage</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
